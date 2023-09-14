@@ -5,17 +5,20 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Needle7 {
- private Deth8 deth;
- public Needle7 () {
+    private Deth8 deth;
 
- }
- @Autowired
- public void setDeth8 (Deth8 deth) {
-     this.deth = deth;
- }
+    public Needle7() {
+
+    }
+
+    @Autowired
+    public void setDeth8(Deth8 deth) {
+        this.deth = deth;
+    }
+
     @Override
     public String toString() {
 
-        return ", смерть Кощея на игле :( " ;
+        return ", смерть Кощея на игле :( ";
     }
 }

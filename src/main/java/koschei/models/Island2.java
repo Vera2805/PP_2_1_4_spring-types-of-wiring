@@ -8,9 +8,11 @@ import org.springframework.stereotype.Component;
 public class Island2 {
 
     private Wood3 wood;
-    public Island2 island () {
-    return new Island2();
+
+    public Island2 island() {
+        return new Island2();
     }
+
     @Autowired
     public void setWood(Wood3 wood) {
         this.wood = wood;

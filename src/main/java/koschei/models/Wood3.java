@@ -7,14 +7,14 @@ import org.springframework.stereotype.Component;
 public class Wood3 {
 
     private Rabbit4 rabbit;
-    public Wood3 wood () {
-        return new Wood3();
-
-    }
 
     @Autowired
     public void setRabbit(Rabbit4 rabbit) {
         this.rabbit = rabbit;
+    }
+
+    public Wood3 wood() {
+        return new Wood3();
     }
 
     @Override
